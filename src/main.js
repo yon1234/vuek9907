@@ -9,8 +9,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 import axios from 'axios'
 Vue.prototype.$axios = axios 
-
 Vue.use(ElementUI);
+import less from 'less'
+Vue.use(less)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
